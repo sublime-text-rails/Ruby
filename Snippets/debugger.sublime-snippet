@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[debugger]]></content>
+  <tabTrigger>deb</tabTrigger>
+  <scope>source.ruby</scope>
+  <description>debugger</description>
+</snippet>
