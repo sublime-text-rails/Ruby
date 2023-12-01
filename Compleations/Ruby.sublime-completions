@@ -1,0 +1,103 @@
+{
+  "scope": "source.rb",
+  "completions":
+  [
+    // A
+    {
+      "trigger": "any?",
+      "kind": ["function", "m", "method"],
+      "contents": "any?$0"
+    },
+    {
+      "trigger": "attr_accessor",
+      "kind": ["function", "m", "method"],
+      "contents": "attr_accessor :${1:attribute_name}",
+    },
+    {
+      "trigger": "attr_reader",
+      "kind": ["function", "m", "method"],
+      "contents": "attr_reader :${1:attribute_name}",
+    },
+    {
+      "trigger": "attr_writer",
+      "kind": ["function", "m", "method"],
+      "contents": "attr_writer :${1:attribute_name}",
+    },
+
+    // B
+    // C
+    {
+      "trigger": "collect",
+      "kind": ["function", "m", "method"],
+      "contents": "collect { |${1:i}| ${2:i*i} }",
+    },
+
+    // D
+    {
+      "trigger": "debugger",
+      "kind": ["function", "m", "method"],
+      "contents": "debugger",
+    },
+    {
+      "trigger": "def",
+      "kind": "snippet",
+      "contents": "def ${1:method_name}${2:(${3:args})}\n  $0\nend",
+      "details": "def method_name(args) ... end"
+    },
+    {
+      "trigger": "def-class",
+      "kind": "snippet",
+      "contents": "def self.${1:method_name}${2:(${3:args})}\n  $0\nend",
+      "details": "def self.method_name(args) ... end"
+    },
+
+    // E
+    // F
+    {
+      "trigger": "frozen-string-literal",
+      "contents": "# frozen_string_literal: true\n$0",
+      "kind": "snippet",
+    },
+    // G
+    // H
+    // I
+    {
+      "trigger": "if-end",
+      "contents": "if ${1:condition}\n  $0\nend",
+      "kind": "snippet",
+      "details": "if ... end"
+    },
+    {
+    "trigger": "include?",
+    "kind": ["function", "m", "method"],
+    "contents": "include?(${1:condition})$0"
+    },
+    // J
+    // K
+    // L
+    // M
+    // N
+    // O
+    // P
+    {
+      "trigger": "present?",
+      "kind": ["function", "m", "method"],
+      "contents": "present?$0"
+    },
+    {
+      "trigger": "pry",
+      "kind": ["function", "m", "method"],
+      "contents": "binding.pry$0"
+    },
+    // Q
+    // R
+    // S
+    // T
+    // U
+    // V
+    // W
+    // X
+    // Y
+    // Z
+  ]
+}

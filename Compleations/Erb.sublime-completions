@@ -1,0 +1,48 @@
+{
+  "scope": "text.html.rails",
+  "completions":
+  [
+    {
+      "trigger": "erp",
+      "kind": "snippet",
+      "contents": "<%= $0 %>",
+      "details": "<%=  %>"
+    },
+    {
+      "trigger": "erb",
+      "kind": "snippet",
+      "contents": "<% $0 %>",
+      "details": "<%  %>"
+    },
+    {
+      "trigger": "end",
+      "kind": "snippet",
+      "contents": "<% end %>",
+      "details": "<% end %>"
+    },
+    {
+      "trigger": "else",
+      "kind": "snippet",
+      "contents": "<% else %>",
+      "details": "<% else %>"
+    },
+    {
+      "trigger": "elsif",
+      "kind": "snippet",
+      "contents": "<% elsif %>",
+      "details": "<% elsif %>"
+    },
+    {
+      "trigger": "if",
+      "kind": "snippet",
+      "contents": "<% if %>",
+      "details": "<% if %>"
+    },
+    {
+      "trigger": "i18",
+      "kind": "snippet",
+      "contents": "<%= I18n.t('') %>",
+      "details": "<% i18n.t %>"
+    }
+  ]
+}
