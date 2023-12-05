@@ -1,5 +1,5 @@
 {
-  "scope": "source.rb",
+  "scope": "source.rb, source.ruby",
   "completions":
   [
     // A
