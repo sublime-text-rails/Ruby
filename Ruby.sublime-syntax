@@ -704,6 +704,7 @@ contexts:
       scope: variable.function.ruby
       captures:
         1: punctuation.accessor.dot.ruby
+
     # Method Call with braces
     - match: '({{method_name}})(?=\s*\()'
       scope: variable.function.ruby
@@ -796,6 +797,7 @@ contexts:
           \b(
             class|
             clone|
+            debugger|
             define_singleton_method|
             display|
             dup|
